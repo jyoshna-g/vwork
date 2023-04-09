@@ -1,0 +1,72 @@
+.mfp-with-zoom .mfp-title, .touch .gallery-image figcaption, html:not(.touch) .gallery-image figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0);
+    padding: 1em;
+    transition: all 0.2s ease;
+    font-weight: 600;
+    max-width: calc(100% - 9em);
+    line-height: 1.25;
+    text-align: center;
+    box-sizing: border-box;
+}
+.mfp-with-zoom .mfp-title:before, .touch .gallery-image figcaption:before, html:not(.touch) .gallery-image figcaption:before, .mfp-with-zoom .mfp-title:after, .touch .gallery-image figcaption:after, html:not(.touch) .gallery-image figcaption:after {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    z-index: -1;
+}
+.mfp-with-zoom .mfp-title:before, .touch .gallery-image figcaption:before, html:not(.touch) .gallery-image figcaption:before, .mfp-with-zoom .mfp-title:after, .touch .gallery-image figcaption:after, html:not(.touch) .gallery-image figcaption:after {
+    right: 100%;
+    bottom: 100%;
+}
+.mfp-with-zoom .mfp-title:after, .touch .gallery-image figcaption:after, html:not(.touch) .gallery-image figcaption:after {
+    left: 100%;
+    top: 100%;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-title, .touch .gallery-image figcaption, html:not(.touch) .gallery-image:hover figcaption {
+    color: white;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease 0.3s;
+}
+.mfp-with-zoom.mfp-ready .mfp-title:before, .touch .gallery-image figcaption:before, html:not(.touch) .gallery-image:hover figcaption:before, .mfp-with-zoom.mfp-ready .mfp-title:after, .touch .gallery-image figcaption:after, html:not(.touch) .gallery-image:hover figcaption:after {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready .mfp-title:before, .touch .gallery-image figcaption:before, html:not(.touch) .gallery-image:hover figcaption:before {
+    right: -1.5em;
+    bottom: -1.5em;
+}
+.mfp-with-zoom.mfp-ready .mfp-title:after, .touch .gallery-image figcaption:after, html:not(.touch) .gallery-image:hover figcaption:after {
+    left: -1.5em;
+    top: -1.5em;
+}
+
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+    
+  }
+  .demo-card-square > .mdl-card__title {
+    color: #fff;
+    background:
+      url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+  }
+
+html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
