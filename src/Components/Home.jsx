@@ -13,7 +13,7 @@ function Home(){
         </div>
         <div class="container mx-auto px-4 py-8" style={{boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px'}}>
             <div style={{position: "relative", textAlign: "center"}}>
-            <img src="/images/building.png" alt="V Works" style={{width: "100%", borderRadius: "25px"}}/>
+            <img src="./vwork/images/building.png" alt="V Works" style={{width: "100%", borderRadius: "25px"}}/>
             <div style={{ position: "absolute", top: "150px", width: "500px", height: "120px", backgroundColor: "#cfbfb8", borderRadius: "0px 25px"}}>
                 <p className="font-serif text-5xl" style={{marginTop: "16px"}}> V - WORK </p>
                 <p className="font-extralight text-2xl">  The Hybrid Office</p></div>
