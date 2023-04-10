@@ -20,13 +20,13 @@ function Home(){
             </div>
             <div className="mdl-grid">
             <div class="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
-            <img src="/images/space.jpg" alt="V Works" />
+            <img src="./images/space.jpg" alt="V Works" />
             </div>
             <div class="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
-            <img src="/images/chair.jpg" alt="V Works" />
+            <img src="./images/chair.jpg" alt="V Works" />
             </div>
             <div class="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
-            <img src="/images/desk.jpg" alt="V Works" />
+            <img src="./images/desk.jpg" alt="V Works" />
             </div>
             </div>
         <div className="mdl-grid">
