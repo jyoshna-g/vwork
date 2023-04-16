@@ -1,17 +1,13 @@
 import React from "react";
 
+
 function Home(){
+   
     return (
         <div>
-    
-    <div id="home" style={{backgroundColor: "#faf8f2"}}  class="shadow">
-        <div className="mdl-grid" style={{padding: "0px 48px 0px"}}>
-        {/* <a href="#amenities" className="font-extralight text-xl" style={{margin: "16px 0 0 auto", color: "black"}}>Amenities</a>
-        <a href="#gallery" className="font-extralight text-xl" style={{margin: "16px 0 0 48px", color: "black"}}>Gallery</a>
-        <a href="#home" className="font-extralight text-xl" style={{margin: "16px 0 16px auto", color: "black"}}>Home</a>
-         */}
-        </div>
-        <div class="container mx-auto px-4 py-8" style={{boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px'}}>
+    <div id="home" style={{backgroundColor: "#faf8f2"}}  className="shadow">
+       
+        <div className="container mx-auto px-4 py-8" style={{boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px'}}>
             <div style={{position: "relative", textAlign: "center"}}>
             <img src="./images/building.png" alt="V Work" style={{width: "100%", borderRadius: "25px"}}/>
             <div style={{ position: "absolute", top: "150px", width: "500px", height: "120px", backgroundColor: "#cfbfb8", borderRadius: "0px 25px"}}>
@@ -19,18 +15,18 @@ function Home(){
                 <p className="font-extralight text-2xl">  The Hybrid Office</p></div>
             </div>
             <div className="mdl-grid">
-            <div class="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
+            <div className="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
             <img src="./images/space.jpg" alt="V Works" />
             </div>
-            <div class="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
-            <img src="./images/chair.jpg" alt="V Works" />
+            <div className="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
+            <img style={{height: "315px"}} src="./images/chair.jpg" alt="V Works" />
             </div>
-            <div class="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
-            <img src="./images/desk.jpg" alt="V Works" />
+            <div className="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
+            <img style={{height: "315px"}} src="./images/desk.jpg" alt="V Works" />
             </div>
             </div>
         <div className="mdl-grid">
-        <h2 class="font-serif text-4xl">ABOUT V WORK</h2>
+        <h2 className="font-serif text-4xl">ABOUT V-WORK</h2>
         <p style={{textAlign: "left"}}>Krishe Sapphire - The building is a <strong>Grade A</strong> modern office building designed in a way to provide design 
         flexibility for Corporates. The building is a <strong>Green</strong> building with its efficient water recycling systems, energy saving 
         electrical systems, highly efficient air conditioning systems with complete power back up, eco friendly buildinf material to 
@@ -42,16 +38,16 @@ function Home(){
 
         <div className="mdl-grid">
             <div className="mdl-cell mdl-cell--8-col-desktop" style={{marginLeft: "0px"}}>
-            <h2 class="font-serif text-4xl" style={{textAlign: "left"}}>PROPERTY SPECIFICATION</h2>
+            <h2 className="font-serif text-4xl" style={{textAlign: "left"}}>PROPERTY SPECIFICATION</h2>
             <div className="mdl-grid">
-                <span class="material-symbols-outlined" style={{fontSize: "55px", margin: "24px"}}>adf_scanner</span>
-                <span class="material-symbols-outlined" style={{fontSize: "55px", margin: "24px"}}>apartment</span>
-                <span class="material-symbols-outlined" style={{fontSize: "55px", margin: "24px"}}>meeting_room</span>
-                <span class="material-symbols-outlined" style={{fontSize: "55px", margin: "24px"}}>print_connect</span>
+                <span className="material-symbols-outlined" style={{fontSize: "55px", margin: "24px"}}>adf_scanner</span>
+                <span className="material-symbols-outlined" style={{fontSize: "55px", margin: "24px"}}>apartment</span>
+                <span className="material-symbols-outlined" style={{fontSize: "55px", margin: "24px"}}>meeting_room</span>
+                <span className="material-symbols-outlined" style={{fontSize: "55px", margin: "24px"}}>print_connect</span>
                 </div>
             </div>
             <div className="mdl-cell mdl-cell--4-col-desktop" style={{backgroundColor: "#cfbfb8", textAlign: "center", borderRadius: "25px"}}>
-            <h2 class="font-serif text-4xl">CONTACT US</h2>
+            <h2 className="font-serif text-4xl">CONTACT US</h2>
             <p>Ramsoft IT services / V work Hybrid spaces, 7th Floor <br/> Sy.No.88, Krishe Sapphire, Hi-techcity Main Road, Madhapur, Hyderabad - 500081 <br/>victor@ramsoft.net</p>
             </div>
             </div>
@@ -82,8 +78,8 @@ function Home(){
                 perspiciatis placeat praesentium quae quam quas qui quibusdam quidem quis quod ratione </p> */}
         </div>
     </div>
-
-
+   
+ 
 {/* <div id="about" class="container mx-auto py-10 bg-white shadow">
     <div class="container mx-auto px-4 py-8">
         <h2 class="text-2xl mb-4">About Us</h2>
