@@ -42,7 +42,7 @@ function Gallery()
                 </div>
 
                 <div className="mdl-grid">
-                <a to="*" className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style={{margin: "16px 16px 16px auto", color: "black", backgroundColor: "#cfbfb8"}}>View more</a>
+                <a href="*" className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" style={{margin: "16px 16px 16px auto", color: "black", backgroundColor: "#cfbfb8"}}>View more</a>
                 </div>
                 </div>
         </div>
