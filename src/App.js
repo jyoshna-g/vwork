@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './Components/Home';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import AboutUs from "./Components/AboutUs";
 import Amenities from './Components/Amenities';
 import Gallery from './Components/Gallery';
@@ -8,6 +8,7 @@ import {Link } from 'react-router-dom';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="font-serif" style={{backgroundColor: "#faf8f2"}}>
        <div className="mdl-grid" style={{padding: "0px 48px 0px", backgroundColor: "#cfbfb8"}}>
         <Link to="/about" className="font-extralight text-xl" style={{margin: "16px 16px 16px auto", color: "black"}}>About US</Link>
@@ -24,6 +25,7 @@ function App() {
         </Routes>
      {/* <Home></Home> */}
     </div>
+    </BrowserRouter>
   );
 }
 

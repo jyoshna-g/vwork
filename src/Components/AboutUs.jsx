@@ -44,7 +44,7 @@ function AboutUs()
 
         <div className="mdl-grid" style={{borderRadius: "25px", display: "block", marginLeft:"auto", marginRight: "auto"}}>
         <h2 className="font-serif text-5xl" style={{textAlign: "center"}}>Location Details</h2>
-    <div id= "map" class="container mx-auto py-10 content-center bg-white shadow">
+    <div id= "map" className="container mx-auto py-10 content-center bg-white shadow">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4194.247147459808!2d78.38756774614335!3d17.44248750380623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb915efe35c8d9%3A0xe73625a226ee0c02!2sKrishe%20Sapphire!5e0!3m2!1sen!2sus!4v1680356909066!5m2!1sen!2sus"
             width="100%"
             title="Route"
