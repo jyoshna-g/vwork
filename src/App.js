@@ -17,7 +17,7 @@ function App() {
         
         </div>
        <Routes>
-        <Route key='home' path="/" exact element={<Home />}></Route>
+        <Route key='home' index element={<Home />}></Route>
         <Route key='aboutpage' path="/about" element={<AboutUs />}></Route>
         <Route key='amenitiespage' path="/amenities" element={<Amenities />}></Route>
         <Route key='gallerypage' path="/gallery" element={<Gallery />}></Route>
