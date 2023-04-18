@@ -16,7 +16,7 @@ function Home(){
             </div>
             <div className="mdl-grid">
             <div className="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
-            <img src="./images/space.jpg" alt="V Works" />
+            <img src={process.env.PUBLIC_URL+ "/images/space.jpg"} alt="V Works" />
             </div>
             <div className="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
             <img style={{height: "315px"}} src="./images/chair.jpg" alt="V Works" />
