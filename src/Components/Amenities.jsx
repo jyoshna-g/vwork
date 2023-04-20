@@ -1,4 +1,10 @@
 import React from "react";
+import lounge from '../images/lounge.png';
+import privateExt from '../images/privateExt.png';
+import teamwithmanager from '../images/teamoffwithmanager.png';
+import reception from '../images/reception.png';
+import confRoom from '../images/confRoom.png';
+import cafe from '../images/cafe.png';
 
 function Amenities()
 {
@@ -10,7 +16,7 @@ function Amenities()
              </div>
              <div className="mdl-grid">
                 <div className="mdl-cell mdl-cell--4-col" style={{boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px'}}>
-                    <img src="./images/lounge.png" style={{height: "224px"}} alt="V Works" />
+                    <img src={lounge} style={{height: "224px"}} alt="V Works" />
                     <div className="mdl-grid">
                     <h3 className="font-serif text-4xl">Freelancers</h3>
                     <p>Our spaces are designed for you to get productive, get creative and when the need arises, to get
@@ -19,7 +25,7 @@ function Amenities()
                     </div>
                 </div>
                 <div className="mdl-cell mdl-cell--4-col" style={{boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px'}}>
-                <img src="./images/privateExt.png" style={{height: "224px"}} alt="V Works" />
+                <img src={privateExt} style={{height: "224px"}} alt="V Works" />
                     <div className="mdl-grid">
                     <h3 className="font-serif text-4xl">Startups/SMEs</h3>
                     <p>We have private and open spaces designed for startups and SMEs that may be small in strength, but whose ideas
@@ -28,7 +34,7 @@ function Amenities()
                     </div>
                 </div>
                 <div className="mdl-cell mdl-cell--4-col" style={{boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px'}}>
-                <img src="./images/teamoffwithmanager.png" style={{height: "224px"}} alt="V Works" />
+                <img src={teamwithmanager} style={{height: "224px"}} alt="V Works" />
                     <div className="mdl-grid">
                     <h3 className="font-serif text-4xl">Enterprise Teams</h3>
                     <p>Big companies need big solutions. We'll get to know your company and offer solutions that best suit your business.
@@ -39,7 +45,7 @@ function Amenities()
 
              <div className="mdl-grid">
                 <div className="mdl-cell mdl-cell--6-col" style={{boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px'}}>
-                    <img src="./images/reception.png" style={{height: "350px", width:"100%"}} alt="V Works" />
+                    <img src={reception} style={{height: "350px", width:"100%"}} alt="V Works" />
                     <div className="mdl-grid">
                     <h3 className="font-serif text-4xl">Event spaces</h3>
                     <p>From a pitch to a social gathering, conduct your events in our upscale spaces.
@@ -47,7 +53,7 @@ function Amenities()
                     </div>
                 </div>
                 <div className="mdl-cell mdl-cell--6-col" style={{boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px'}}>
-                <img src="./images/confRoom.png" style={{height: "350px", width:"100%"}} alt="V Works" />
+                <img src={confRoom} style={{height: "350px", width:"100%"}} alt="V Works" />
                     <div className="mdl-grid">
                     <h3 className="font-serif text-4xl">Meeting rooms</h3>
                     <p>A quick huddle or a board meeting - there's room for discussion for any team size
@@ -57,7 +63,7 @@ function Amenities()
              </div>
 
                 <div className="mdl-grid" style={{boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px'}}>
-                   <span className="mdl-cell--5-col"> <img src="./images/cafe.png" style={{height: "520px", width:"100%"}} alt="V Works" /></span>
+                   <span className="mdl-cell--5-col"> <img src={cafe} style={{height: "520px", width:"100%"}} alt="V Works" /></span>
                    <span className="mdl-cell mdl-cell--7-col" style={{marginLeft: "16px"}}>
                         <p className="font-serif text-2xl">Amenities</p>
                         <p>VWORK comes with tons of amenities. The following are available at the location: </p><br />

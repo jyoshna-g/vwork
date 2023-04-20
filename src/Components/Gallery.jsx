@@ -1,5 +1,5 @@
 import React from "react";
-import lounge from '../images/lounge.png'
+import lounge from '../images/lounge.png';
 import space from '../images/space.jpg';
 import chair from '../images/chair.jpg';
 import desk from '../images/desk.jpg';

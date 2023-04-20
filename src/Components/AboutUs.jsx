@@ -38,7 +38,7 @@ function AboutUs()
 
         <div className="mdl-grid" style={{width: "25%", borderRadius: "25px", display: "block", marginLeft:"auto", marginRight: "auto"}}>
         <h2 className="font-serif text-5xl" style={{textAlign: "center"}}>Contact US</h2>
-        <p style={{textAlign: "center"}}> M : +1 215 287 2637</p>
+        <p style={{textAlign: "center"}}> M : +91 9985200608</p>
         <p className="font-serif text-xl" style={{textAlign: "center"}}> Open Hours</p>
         <p style={{textAlign: "center"}}> 09:00 am to 06:00 pm - Monday to Friday</p>
         </div>
