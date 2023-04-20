@@ -15,13 +15,12 @@ function App() {
         <Link to="/amenities" className="font-extralight text-xl" style={{margin: "16px", color: "black"}}>Amenities</Link>
         <Link to="/gallery" className="font-extralight text-xl" style={{margin: "16px", color: "black"}}>Gallery</Link>
         <Link to="/" className="font-extralight text-xl" style={{margin: "16px", color: "black"}}>Home</Link>
-        
         </div>
        <Routes>
-        <Route key='home' index element={<Home />}></Route>
-        <Route key='aboutpage' path="/about" element={<AboutUs />}></Route>
-        <Route key='amenitiespage' path="/amenities" element={<Amenities />}></Route>
-        <Route key='gallerypage' path="/gallery" element={<Gallery />}></Route>
+        <Route path="/" exact element={<Home />}></Route>
+        <Route path="/about" element={<AboutUs />}></Route>
+        <Route path="/amenities" element={<Amenities />}></Route>
+        <Route path="/gallery" element={<Gallery />}></Route>
         </Routes>
      {/* <Home></Home> */}
     </div>
