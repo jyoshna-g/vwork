@@ -1,6 +1,8 @@
 import React from "react";
-import logo from '../images/building.png';
-
+import building from '../images/building.png';
+import space from '../images/space.jpg';
+import chair from '../images/chair.jpg';
+import desk from '../images/desk.jpg';
 
 function Home(){
    
@@ -10,20 +12,20 @@ function Home(){
        
         <div className="container mx-auto px-4 py-8" style={{boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px'}}>
             <div style={{position: "relative", textAlign: "center"}}>
-            <img src={logo} alt="V Work" style={{width: "100%", borderRadius: "25px"}}/>
+            <img src={building} alt="V Work" style={{width: "100%", borderRadius: "25px"}}/>
             <div style={{ position: "absolute", top: "150px", width: "500px", height: "120px", backgroundColor: "#cfbfb8", borderRadius: "0px 25px"}}>
                 <p className="font-serif text-5xl" style={{marginTop: "16px"}}> V - WORK </p>
                 <p className="font-extralight text-2xl">  The Hybrid Office</p></div>
             </div>
             <div className="mdl-grid">
             <div className="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
-            <img src="../images/space.jpg" alt="V Works" />
+            <img src={space} alt="V Works" />
             </div>
             <div className="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
-            <img style={{height: "315px"}} src="../images/chair.jpg" alt="V Works" />
+            <img style={{height: "315px"}} src={chair} alt="V Works" />
             </div>
             <div className="mdl-cell demo-card-square mdl-card mdl-shadow--2dp" style={{borderRadius: "25px"}}>
-            <img style={{height: "315px"}} src="../images/desk.jpg" alt="V Works" />
+            <img style={{height: "315px"}} src={desk} alt="V Works" />
             </div>
             </div>
         <div className="mdl-grid">

@@ -1,10 +1,11 @@
 import React from "react";
+import building from '../images/building.png';
 
 function AboutUs()
 {
     return (
     <div className="container mx-auto px-4 py-8" style={{backgroundColor: "#faf8f2",boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px' }} >
-    <img src="./images/building.png" alt="V Work" style={{width: "80%", borderRadius: "25px", display: "block", marginLeft:"auto", marginRight: "auto"}}/>
+    <img src={building} alt="V Work" style={{width: "80%", borderRadius: "25px", display: "block", marginLeft:"auto", marginRight: "auto"}}/>
 
     <h2 className="font-serif text-5xl" style={{textAlign: "center"}}>About V-WORK Coworking Space</h2>
     <p style={{textAlign: "center", margin:"16px", padding:"0 16px"}}>
